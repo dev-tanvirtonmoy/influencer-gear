@@ -1,5 +1,12 @@
 /* Mobile view responsive start from here */
 @media only screen and (max-width: 576px) {
-    
+    header nav {
+        flex-direction: column;
+        gap: 16px;
+    }
+    header nav .nav-links {
+        flex-direction: column;
+        gap: 17px;
+    }
 }
 /* Mobile view responsive end here */
