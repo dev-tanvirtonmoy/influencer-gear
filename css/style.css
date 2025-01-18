@@ -32,10 +32,23 @@ a:hover {
   margin-inline: auto;
   width: 85%;
 }
-
-
+.btn {
+  display: flex;
+  align-items: center;
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 18px 24px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 8px;
+  cursor: pointer;
+}
+.btn i {
+  font-size: 1.25rem;
+}
 /* Navbar part CSS start from here */
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,19 +57,49 @@ nav{
 nav .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #3A3A3A;
+  color: #3a3a3a;
 }
 nav .nav-links {
   display: flex;
   gap: 34px;
   align-items: center;
 }
-nav .nav-links li a{
-  color: #3A3A3A;
+nav .nav-links li a {
+  color: #3a3a3a;
   font-size: 1rem;
   font-weight: 600;
 }
-nav .nav-links li a i{
+nav .nav-links li a i {
   font-size: 24px;
 }
 /* Navbar part CSS end here */
+
+/* Banner section CSS start from here */
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding: 50px 0;
+}
+.banner .banner-con {
+  width: 582px;
+}
+.banner .banner-con h1 {
+  color: #3a3a3a;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+.banner .banner-con p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 16px 0;
+}
+.banner .banner-img {
+  background: url(../assets/images/Circle\ design.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Banner section CSS end here */

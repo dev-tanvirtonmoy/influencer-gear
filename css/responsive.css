@@ -1,12 +1,31 @@
 /* Mobile view responsive start from here */
 @media only screen and (max-width: 576px) {
-    header nav {
-        flex-direction: column;
-        gap: 16px;
-    }
-    header nav .nav-links {
-        flex-direction: column;
-        gap: 17px;
-    }
+  header nav {
+    flex-direction: column;
+    gap: 16px;
+  }
+  header nav .nav-links {
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  header .banner {
+    flex-direction: column-reverse;
+    gap: 30px;
+    text-align: center;
+    padding: 15px;
+  }
+  header .banner .banner-con {
+    width: 100%;
+  }
+  header .banner .banner-con h1 {
+    font-size: 1.75rem;
+  }
+  header .banner .banner-con p {
+    font-size: 0.875rem;
+  }
+  header .banner .banner-con button {
+    margin: 0 auto;
+  }
 }
 /* Mobile view responsive end here */
