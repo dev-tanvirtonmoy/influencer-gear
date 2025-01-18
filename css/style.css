@@ -103,3 +103,16 @@ nav .nav-links li a i {
   background-repeat: no-repeat;
 }
 /* Banner section CSS end here */
+
+/* Sponsors section CSS start from here */
+.sponsors {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/* Sponsors section CSS end here */
