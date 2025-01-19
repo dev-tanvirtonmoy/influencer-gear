@@ -114,5 +114,68 @@ nav .nav-links li a i {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-
 /* Sponsors section CSS end here */
+
+/* Our Products CSS start from here */
+.product {
+  margin: 50px 0;
+}
+.product h2 {
+  color: #3a3a3a;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 250%;
+  text-align: center;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.card {
+  padding: 18px 14px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card h3 {
+  color: #18191f;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 16px 0 6px 0;
+  text-transform: capitalize;
+}
+.card h4 {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 6px;
+}
+.rating {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.star i {
+  font-size: 16px;
+  color: #fb8200;
+}
+.rating span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 157%;
+  letter-spacing: 0.1px;
+}
+.product a {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+}
+/* Our Products CSS end here */
