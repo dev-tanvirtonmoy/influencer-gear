@@ -179,3 +179,36 @@ nav .nav-links li a i {
   gap: 8px;
 }
 /* Our Products CSS end here */
+
+/* Featured section CSS start from here */
+.feature {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin: 80px 0;
+}
+.feature figure {
+  width: 500px;
+}
+.feature figure img {
+  width: 100%;
+}
+.feature .left-con h2 {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 157%;
+}
+.feature .left-con p {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 175%; 
+  margin: 16px 0;
+  width: 501px;
+
+}
+.feature .left-con button {
+  border-radius: 0;
+}
+/* Featured section CSS end here */

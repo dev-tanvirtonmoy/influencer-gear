@@ -43,5 +43,24 @@
   main .product .product-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  main .feature {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 24px;
+    margin: 40px 0;
+  }
+  main .feature figure {
+    width: 100%;
+  }
+  main .feature .left-con h2 {
+    font-size: 1.5rem;
+  }
+  main .feature .left-con p {
+    width: 100%;
+  }
+  main .feature .left-con button {
+    margin: 0 auto;
+  }
 }
 /* Mobile view responsive end here */
